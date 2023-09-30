@@ -1,0 +1,16 @@
+{%extends 'DjangoApplication//base_layout.html' %}
+{% load static %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'DjangoApplication/css/index.css' %}">
+{% endblock %}
+
+{% block header %}
+{% include 'DjangoApplication/header.html' %}
+{% endblock %}
+
+{% block content %}
+
+{% endblock %}
